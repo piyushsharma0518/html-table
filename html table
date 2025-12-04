@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    
+    <style>
+
+        #main{
+            margin: 50px;
+            border:3px solid black;
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        #logo{
+            border: solid;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(24, 156, 24);
+        }
+        
+        #sidebox1{
+            border: solid;
+            width: 250px;
+            height: 20px;
+            background-color: rgb(24, 156, 24);
+        }
+
+        #top{
+            display: flex;
+        }
+
+        #sidebox2{
+            border: solid;
+            width: 200px;
+            height: 15px;
+            margin-top: 12.5px;
+        }
+
+        #sidebox3{
+            display: flex;
+        }
+
+        #a1{
+            border: solid;
+            width: 52px;
+            height: 15px;
+            margin-top: 12.5px;
+            margin-right: 10px;
+            background-color: rgb(24, 156, 24);
+        }
+
+        #tops{
+            margin-left: 10px;
+            
+        }
+
+        #bottom{
+            display: flex;
+        }
+
+        #navigation{
+            border: solid;
+            width: 80px;
+            height: 130px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #content_side{
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+
+        #content{
+            height: 150px;
+            border: solid;
+            width: 385px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #footer{
+            border: solid;
+            width: 385px;
+            height: 20px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(24, 156, 24);
+        }
+
+        #ws{
+            margin-top: 15px;
+        }
+
+        body{
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+
+<body>
+
+    <div id="main">
+        <div id="top">
+            <div id="logo">LOGO</div>
+            <div id="tops">
+                <div id="sidebox1"></div>
+                <div id="sidebox2"></div>
+                <div id="sidebox3">
+                    <div id="a1"></div>
+                    <div id="a1"></div>
+                    <div id="a1"></div>
+                    <div id="a1"></div>
+                    <div id="a1"></div>
+                    <div id="a1"></div>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="div1">
+                <div id="navigation">Nevigation</div>
+                <div id="ws">White Space</div>
+            </div>
+            <div id="content_side">
+                <div id="content">Content</div>
+                <div id="footer">Footer</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
